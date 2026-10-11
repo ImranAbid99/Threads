@@ -1,4 +1,4 @@
-# Threadora
+# Threads
 
 Threadora is an original fashion storefront foundation for men, women, and kids. The client and server are intentionally independent applications.
 
