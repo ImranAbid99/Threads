@@ -1,0 +1,1 @@
+export type Product = { id: string; name: string; slug: string; category: 'Men' | 'Women' | 'Kids'; description: string; price: number; compareAtPrice?: number; sizes: string[]; colors: string[]; image: string; badge?: string; createdAt: string };

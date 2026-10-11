@@ -1,0 +1,1 @@
+import {Product} from '../types/product'; import {ProductCard} from './product-card'; export function ProductGrid({items}:{items:Product[]}){return <div className="grid grid-cols-2 gap-x-4 gap-y-10 sm:grid-cols-3 lg:grid-cols-4 lg:gap-x-6">{items.map(p=><ProductCard key={p.id} product={p}/>)}</div>}

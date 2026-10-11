@@ -1,0 +1,1 @@
+import {Injectable} from '@nestjs/common'; @Injectable() export class CategoriesService{findAll(){return {data:[{name:'Men',slug:'men'},{name:'Women',slug:'women'},{name:'Kids',slug:'kids'}]}}findOne(slug:string){return {data:{slug}}}}
